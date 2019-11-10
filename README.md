@@ -1,22 +1,11 @@
 # 💸 Week08 Bootcamp2019a Project: Node Coin Flip Game
 
 ### Goal: Create a simple web application that uses the fs and http modules. Use http to create the server and fs to read your html file. Include vanilla ES6 js in a script tag at the bottom of your html file. Try creating a coin flip guessing game
+To use: copy the code and download figlet using npm install figlet from the command line
+### How I did it:
 
-### How to submit your code for review:
+- Created a server which would handle requests for html, css, and js
+- Had two buttons and a section in the DOM, whenever either button was clicked, an event listener would trigger and make a server request
+- The server would calculate a random answer for the coin flip and return a JSON object with the response.
+- Based on the response, the callbacks to the fetch would change the background image of the section and let the user know whether they won or lost
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
